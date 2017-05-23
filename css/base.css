@@ -11,35 +11,35 @@ input[type=text], input[type=password], input[type=email], textarea {
     font-size: 12pt;
 }
 
-.loginForm, .signupForm {
+.primaryForm {
     padding: 22px;
     background-color: white;
     border: solid 1px #eee;
 }
 
-.loginForm label, .signupForm label {
+.primaryForm label {
     color: #159f84;
     margin-top: 5px;
     margin-bottom: 0px;
 }
 
-.loginForm [type=submit], .signupForm [type=submit] {
+.primaryForm [type=submit] {
     border-radius: 24px;
     width: 100%;
     margin-top: 12px;
 }
 
-#atid-desktop ul.formTabs {
+#soma-desktop ul.formTabs {
     border-bottom: none;
 }
 
-#atid-desktop ul.formTabs li.active > a {
+#soma-desktop ul.formTabs li.active > a {
     background-color: transparent;
     color: #159f84;
     border: solid 1px #eee;
 }
 
-#atid-desktop ul.formTabs li > a {
+#soma-desktop ul.formTabs li > a {
     text-transform: uppercase;
     margin-right: 0px;
     border: none;
@@ -47,24 +47,24 @@ input[type=text], input[type=password], input[type=email], textarea {
     color: #777;
 }
 
-#atid-desktop ul.formTabs li > a:hover, #atid-desktop ul.formTabs li > a:focus {
+#soma-desktop ul.formTabs li > a:hover, #soma-desktop ul.formTabs li > a:focus {
     background-color: transparent;
     color: #159f84;
 } 
 
-#atid-desktop section#authentication {
+#soma-desktop section#authentication {
     transition: height linear .4s;
 }
 
-#atid-desktop .artwork {
+#soma-desktop .artwork {
     padding: 18px;
 }
 
-#atid-desktop .artwork h1 {
+#soma-desktop .artwork h1 {
     font-weight: bolder;
 }
 
-#atid-desktop .artwork small {
+#soma-desktop .artwork small {
     text-transform: uppercase;
     font-size: 11pt;
     color: #777;

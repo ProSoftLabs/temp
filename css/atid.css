@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 
-body#atid-desktop {
+body#soma-desktop {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     overflow-x: hidden;
@@ -105,7 +105,7 @@ ul.headerBar #course .courseName {
     margin-right: 100px;
 }
 
-#atid-desktop #drawingArea {
+#soma-desktop #drawingArea {
     background-color: white;
     position: relative;
 }
@@ -192,17 +192,17 @@ canvas.tool-transition {
     cursor: url("images/tools/transition.svg"), auto;
 }
 
-#atid-desktop .loginScreen, #atid-desktop.signupScreen {
+#soma-desktop .loginScreen, #soma-desktop.signupScreen {
     background-color: white;
 }
 
-form .signupForm, form .loginForm {
+.primaryForm {
     padding: 12px 15px;
     background-color: transparent;
     color: #159f84;
 }
 
-.loginScreen .centered, .signupScreen .centered {
+#soma-desktop .centered {
     position: absolute;
     top: 50%;
     left: 50%;
